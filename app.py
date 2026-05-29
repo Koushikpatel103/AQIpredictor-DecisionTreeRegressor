@@ -5,8 +5,8 @@ import plotly.graph_objects as go
 import joblib
 
 # Load
-model = joblib.load("models/model.pkl")
-encoders = joblib.load("models/label_encoders.pkl")
+model = joblib.load("Models/model.pkl")
+encoders = joblib.load("Models/label_encoders.pkl")
 
 # Page
 st.set_page_config(
